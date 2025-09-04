@@ -1,4 +1,4 @@
-[
+{
   {
     "questionPointsForItem": 1,
     "questionId": 4911,
@@ -26,4 +26,4 @@
     "questionText_plainText": "Was sind Unterschiede zwischen impliziter und expliziter Grammatik?",
     "questionText_isoLanguageCode": "de"
   }
-]
+}
