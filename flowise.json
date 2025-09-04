@@ -1,0 +1,29 @@
+[
+  {
+    "questionPointsForItem": 1,
+    "questionId": 4911,
+    "maxPointsForQuestionItem": 2,
+    "questionAnswers_plainText": "Die implizite Grammatik wird im Erstspracherwerb auf natÃ¼rliche Art und Weise erworben und ist dem Bewusstsein nicht zugÃ¤nglich, wÃ¤hrend die explizite Grammatik die implizite Grammatik nachtrÃ¤glich beschreibt, somit dem Bewusstsein zugÃ¤nglich wird. Die explizite Grammatik kann somit verbalisiert werden.",
+    "questionAnswers_isoLanguageId": "",
+    "questionText_plainText": "Was sind Unterschiede zwischen impliziter und expliziter Grammatik?",
+    "questionText_isoLanguageCode": "de"
+  },
+  {
+    "questionPointsForItem": 1,
+    "questionId": 4911,
+    "maxPointsForQuestionItem": 2,
+    "questionAnswers_plainText": "Implizite Grammatik wird im Erstspracherwerb natÃ¼rlich erworben. Explizite Grammatik ist die nachtrÃ¤gliche Beschreibung der impliziten Grammatik. Die explizite Grammatik ist dem Bewusstsein im Vergleich zur impliziten Grammatik zugÃ¤nglich.",
+    "questionAnswers_isoLanguageId": "",
+    "questionText_plainText": "Was sind Unterschiede zwischen impliziter und expliziter Grammatik?",
+    "questionText_isoLanguageCode": "de"
+  },
+  {
+    "questionPointsForItem": 1,
+    "questionId": 4911,
+    "maxPointsForQuestionItem": 2,
+    "questionAnswers_plainText": "Die implizite Grammatik wird im Erstspracherwerb natÃ¼rlich erworben, sie ist bereits vorhanden und unbewusst. Jede natÃ¼rlische Sprache hat eine implizite Grammatik.  Die explizite Grammatik wird bewusst erworben und grammatische Regeln kÃ¶nnen bewusst (auf die jeweilige Sprache) angewendet werden.",
+    "questionAnswers_isoLanguageId": "",
+    "questionText_plainText": "Was sind Unterschiede zwischen impliziter und expliziter Grammatik?",
+    "questionText_isoLanguageCode": "de"
+  }
+]
