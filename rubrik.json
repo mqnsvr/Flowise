@@ -1,0 +1,115 @@
+{
+  "rubric_id": "rubric_de_4911_v1",
+  "question_id": "4911",
+  "language": "de",
+  "meta": {
+    "title": "Unterschiede zwischen impliziter und expliziter Grammatik",
+    "sample_solution": "Die implizite Grammatik wird im Erstspracherwerb natürlich und unbewusst erworben und ist dem Bewusstsein nicht direkt zugänglich. Die explizite Grammatik beschreibt diese impliziten Strukturen nachträglich durch Regeln und ist bewusstseinsfähig, sodass sie verbalisiert und systematisch vermittelt werden kann.",
+    "notes": "Bewertung primär inhalts-/kriterienbasiert; Similarity dient als Zweitindikator."
+  },
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "Sample Key Points (Inhaltliche Abdeckung)",
+      "weight": 0.35,
+      "description": "Abdeckung der zentralen Kernaussagen der Musterlösung mit Evidenz aus der Studierendenantwort.",
+      "levels": [
+        { "label": "Exzellent",  "score": 4, "descriptor": "Alle Kernpunkte mit klaren Belegen und korrekten Bezügen." },
+        { "label": "Gut",        "score": 3, "descriptor": "Die meisten Kernpunkte korrekt und belegt, geringe Lücken." },
+        { "label": "Ausreichend","score": 2, "descriptor": "Einige Kernpunkte vorhanden, bedeutende Lücken/Unschärfen." },
+        { "label": "Schwach",    "score": 1, "descriptor": "Wesentliche Kernpunkte fehlen oder sind falsch." }
+      ],
+      "expected_concepts": [
+        { "id": "KP1", "canonical": "implizite Grammatik", "aliases": ["implizite Grammatik", "implizit erworbene Grammatik"] },
+        { "id": "KP2", "canonical": "Erstspracherwerb natürlich und unbewusst", "aliases": ["Erstspracherwerb", "natürlich erworben", "unbewusst", "nicht bewusst"] },
+        { "id": "KP3", "canonical": "nicht (direkt) zugänglich dem Bewusstsein", "aliases": ["dem Bewusstsein nicht zugänglich", "nicht direkt zugänglich"] },
+        { "id": "KP4", "canonical": "explizite Grammatik beschreibt implizites nachträglich durch Regeln", "aliases": ["explizite Grammatik beschreibt", "nachträglich durch Regeln", "Regeln beschreiben implizite Strukturen"] },
+        { "id": "KP5", "canonical": "bewusst/verbalisiert/systematisch vermittelbar", "aliases": ["bewusstseinsfähig", "verbalisiert", "systematisch vermittelt"] }
+      ],
+      "negative_indicators": [
+        "implizite Grammatik ist bewusst erlernt",
+        "explizite Grammatik wird natürlich/unbewusst erworben"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Similarity Score (semantische Nähe zur Musterlösung)",
+      "weight": 0.20,
+      "description": "Semantische Ähnlichkeit (0–1) zwischen Antwort und Musterlösung; dient als Zweitindikator.",
+      "levels": [
+        { "label": "Exzellent",  "score": 4, "descriptor": "Sehr hohe Ähnlichkeit (≥0.85)." },
+        { "label": "Gut",        "score": 3, "descriptor": "Hohe Ähnlichkeit (0.70–0.85)." },
+        { "label": "Ausreichend","score": 2, "descriptor": "Mittlere Ähnlichkeit (0.50–0.70)." },
+        { "label": "Schwach",    "score": 1, "descriptor": "Geringe Ähnlichkeit (<0.50)." }
+      ],
+      "similarity_thresholds": { "excellent": 0.85, "good": 0.70, "sufficient": 0.50 }
+    },
+    {
+      "id": "C3",
+      "name": "Coherence (roter Faden)",
+      "weight": 0.15,
+      "description": "Logische Struktur, klare Progression, keine Sprünge/Widersprüche.",
+      "levels": [
+        { "label": "Exzellent",  "score": 4, "descriptor": "Sehr klarer Aufbau, durchgehend stringent." },
+        { "label": "Gut",        "score": 3, "descriptor": "Überwiegend klar strukturiert, kleine Brüche." },
+        { "label": "Ausreichend","score": 2, "descriptor": "Teilweise unklar, sprunghaft, einige Brüche." },
+        { "label": "Schwach",    "score": 1, "descriptor": "Kein roter Faden, widersprüchlich." }
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Grammar (Grammatik)",
+      "weight": 0.10,
+      "description": "Satzbau, Kongruenz, Zeichensetzung.",
+      "levels": [
+        { "label": "Exzellent",  "score": 4, "descriptor": "Grammatikalisch korrekt, nur geringfügige Ausreißer." },
+        { "label": "Gut",        "score": 3, "descriptor": "Wenige Fehler ohne Sinnentstellung." },
+        { "label": "Ausreichend","score": 2, "descriptor": "Mehrere Fehler, teilweise Sinnbeeinträchtigung." },
+        { "label": "Schwach",    "score": 1, "descriptor": "Häufige Fehler, Sinn oft gestört." }
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Spelling (Rechtschreibung)",
+      "weight": 0.05,
+      "description": "Orthografie und Tippfehler relativ zur Textlänge.",
+      "levels": [
+        { "label": "Exzellent",  "score": 4, "descriptor": "0–1 Fehler/100 Wörter." },
+        { "label": "Gut",        "score": 3, "descriptor": "≤3 Fehler/100 Wörter." },
+        { "label": "Ausreichend","score": 2, "descriptor": "≤6 Fehler/100 Wörter." },
+        { "label": "Schwach",    "score": 1, "descriptor": ">6 Fehler/100 Wörter." }
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Reading Ease (Flesch Reading Ease)",
+      "weight": 0.05,
+      "description": "Lesbarkeitsindex (FRE). Höher = leichter verständlich.",
+      "levels": [
+        { "label": "Exzellent",  "score": 4, "descriptor": "Sehr gut lesbar (FRE ≥ 60)." },
+        { "label": "Gut",        "score": 3, "descriptor": "Gut lesbar (FRE 50–60)." },
+        { "label": "Ausreichend","score": 2, "descriptor": "Mittel (FRE 35–50)." },
+        { "label": "Schwach",    "score": 1, "descriptor": "Schwer (FRE < 35)." }
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "Pattern Analysis (Kohorten-Muster)",
+      "weight": 0.00,
+      "description": "Erkennt verbreitete Fehlinterpretationen in der Kohorte (Alarm/Flag für Lehrende).",
+      "levels": [
+        { "label": "Flag", "score": 0, "descriptor": "Abweichungsmuster erkannt (Kohorten-Alert)." },
+        { "label": "OK",   "score": 0, "descriptor": "Kein ungewöhnliches Muster." }
+      ],
+      "policy": {
+        "window_size": 200,
+        "alert_if_fraction_deviates": 0.35,
+        "deviation_similarity_cutoff": 0.45
+      }
+    }
+  ],
+  "aggregation": {
+    "method": "weighted_sum",
+    "normalize_to": 100
+  }
+}
